@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# terminates "to infinity and beyond" script
+
+kill -15 "$(ps -aux | pgrep -f 4-to_infinity_and_beyond)"
