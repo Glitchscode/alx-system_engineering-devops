@@ -5,7 +5,7 @@ counter=1
 
 while [ $counter ]
 do
-    echo "to infinity and beyond"
+    echo "To infinity and beyond"
     sleep 2
     ((counter++))
 done
