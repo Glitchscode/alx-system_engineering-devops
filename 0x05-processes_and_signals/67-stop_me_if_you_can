@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# terminates "to infinity and beyond" script without using the kill command
+
+pkill -f 7-highlander
