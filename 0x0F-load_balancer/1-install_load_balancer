@@ -39,14 +39,14 @@ defaults
   timeout server 15s
   timeout http-request 10s
 
-frontend th3gr00t-tech-frontend
+frontend glitchscode-tech-frontend
     bind *:80
-    default_backend th3gr00t-tech-backend
+    default_backend glitchscode-tech-backend
 
-backend th3gr00t-tech-backend
+backend glitchscode-tech-backend
     balance roundrobin
-    server 453-web-01 35.243.128.200:80 check
-    server 453-web-02 3.239.120.96:80 check
+    server 471672-web-01 3.95.32.70:80 check
+    server 471672-web-02 54.90.50.192:80 check
 "
 
 # shellcheck disable=SC2154
