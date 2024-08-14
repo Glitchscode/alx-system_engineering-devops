@@ -19,7 +19,7 @@ def recurse(subreddit, hot_list=[], after=""):
     headers = {'user-agent': 'philsrequest'}
 
     r = requests.get(url, headers=headers)
-    if (r.status_code is 404):
+    if (r.status_code == 404):
         return None
     elif 'data' not in r.json():
         return None
