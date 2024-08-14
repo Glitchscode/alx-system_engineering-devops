@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-import requests
 """
 Get reddit top ten codes
 """
+import requests
+
 
 
 def top_ten(subreddit):

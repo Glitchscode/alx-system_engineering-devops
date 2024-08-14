@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-import requests
 """
 A program to get subcriber count on reddit
 """
+import requests
+
+
 
 def number_of_subscribers(subreddit):
     """ GET subscriber count of a given subreddit """
