@@ -1,5 +1,8 @@
 #!/usr/bin/python3
 import requests
+"""
+Get reddit top ten codes
+"""
 
 
 def top_ten(subreddit):
