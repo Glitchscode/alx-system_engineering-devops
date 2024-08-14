@@ -1,9 +1,6 @@
 #!/usr/bin/python3
-"""
-Get reddit top ten codes
-"""
+"""Get reddit top ten codes"""
 import requests
-
 
 
 def top_ten(subreddit):

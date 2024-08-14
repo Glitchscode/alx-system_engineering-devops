@@ -1,9 +1,6 @@
 #!/usr/bin/python3
-"""
-Get All titles of hot articles for a given subreddit
-"""
+"""Get All titles of hot articles for a given subreddit"""
 import requests
-
 
 
 def recurse(subreddit, hot_list=[], after=""):
